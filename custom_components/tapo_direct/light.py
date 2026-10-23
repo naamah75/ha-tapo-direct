@@ -36,6 +36,12 @@ class TapoDirectLight(CoordinatorEntity[TapoDirectCoordinator], LightEntity):
     @property
     def supported_color_modes(self) -> set[ColorMode]:
         return {ColorMode.COLOR_TEMP, ColorMode.HS}
+
+    @property
+    def color_mode(self) -> ColorMode:
+        """Return the currently active color mode."""
+        color_temp = getattr(self.coordinator.device, "color_temp", None)
+        return ColorMode.COLOR_TEMP if color_temp else ColorMode.HS
     async def async_turn_on(self, **kwargs: Any) -> None:
         device = self.coordinator.device
         if ATTR_HS_COLOR in kwargs:
