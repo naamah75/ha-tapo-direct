@@ -1,0 +1,1 @@
+{"config":{"step":{"user":{"title":"Connect a Tapo bulb directly","description":"Uses a fixed KLAP v2 connection without discovery.","data":{"host":"Host","username":"TP-Link username","password":"TP-Link password"}}},"error":{"cannot_connect":"Unable to connect using direct KLAP v2"},"abort":{"already_configured":"This bulb is already configured"}}}

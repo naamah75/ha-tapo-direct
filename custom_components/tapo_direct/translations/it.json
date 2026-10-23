@@ -1,0 +1,1 @@
+{"config":{"step":{"user":{"title":"Collega direttamente una lampadina Tapo","description":"Usa una connessione KLAP v2 fissa senza discovery.","data":{"host":"Host","username":"Nome utente TP-Link","password":"Password TP-Link"}}},"error":{"cannot_connect":"Impossibile collegarsi tramite KLAP v2 diretto"},"abort":{"already_configured":"Questa lampadina è già configurata"}}}

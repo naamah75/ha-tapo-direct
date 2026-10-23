@@ -1,0 +1,1 @@
+{"domain":"tapo_direct","name":"Tapo Direct","codeowners":[],"config_flow":true,"documentation":"https://github.com/OWNER/tapo-direct","integration_type":"device","iot_class":"local_polling","requirements":["python-kasa[speedups]==0.11.0.1"],"version":"0.1.0"}
