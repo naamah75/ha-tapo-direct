@@ -1,1 +1,16 @@
-{"domain":"tapo_direct","name":"Tapo Direct","codeowners":[],"config_flow":true,"documentation":"https://github.com/OWNER/tapo-direct","integration_type":"device","iot_class":"local_polling","requirements":["python-kasa[speedups]==0.11.0.1"],"version":"0.1.0"}
+{
+  "domain": "tapo_direct",
+  "name": "Tapo Direct",
+  "codeowners": [
+    "@naamah75"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/naamah75/ha-tapo-direct",
+  "issue_tracker": "https://github.com/naamah75/ha-tapo-direct/issues",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [
+    "python-kasa[speedups]==0.11.0.1"
+  ],
+  "version": "0.1.0"
+}
