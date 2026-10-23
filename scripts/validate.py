@@ -13,5 +13,5 @@ for path in [ROOT / "hacs.json", INTEGRATION / "manifest.json", INTEGRATION / "s
 manifest = json.loads((INTEGRATION / "manifest.json").read_text())
 assert manifest["domain"] == "tapo_direct"
 assert manifest["config_flow"] is True
-assert manifest["requirements"] == ["python-kasa[speedups]==0.11.0.1"]
+assert manifest["requirements"] == ["python-kasa[speedups]>=0.11.0.1"]
 print("VALIDATION_OK")
