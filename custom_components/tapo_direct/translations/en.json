@@ -1,1 +1,31 @@
-{"config":{"step":{"user":{"title":"Connect a Tapo bulb directly","description":"Uses a fixed KLAP v2 connection without discovery.","data":{"host":"Host","username":"TP-Link username","password":"TP-Link password"}}},"error":{"cannot_connect":"Unable to connect using direct KLAP v2"},"abort":{"already_configured":"This bulb is already configured"}}}
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect a Tapo bulb directly",
+        "description": "Uses a fixed KLAP v2 connection without discovery.",
+        "data": {
+          "host": "Host",
+          "username": "TP-Link username",
+          "password": "TP-Link password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate Tapo Direct",
+        "description": "Authentication failed for this Tapo bulb. Enter the current TP-Link account credentials.",
+        "data": {
+          "username": "TP-Link username",
+          "password": "TP-Link password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect using direct KLAP v2",
+      "invalid_auth": "The supplied TP-Link credentials are invalid"
+    },
+    "abort": {
+      "already_configured": "This bulb is already configured",
+      "reauth_successful": "Authentication was updated successfully"
+    }
+  }
+}
